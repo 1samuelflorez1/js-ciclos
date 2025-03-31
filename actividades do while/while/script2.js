@@ -62,7 +62,7 @@ while(contador != 1){ //en cambio en el while, primero pregunta y luego acciona
 // }while(contador != 1)
 
 
-//Actividad 8 ----------------------- while 
+//Actividad 8 ----------------------------------------------------------------------------------- while 
 
 // let sumaEdades = 0
 // let cantidadEdades = 0
