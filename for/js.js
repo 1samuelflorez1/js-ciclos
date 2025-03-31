@@ -34,14 +34,28 @@
 
 //actividad 4---------------------------------------For
 
-let totalnota = 0
+// let totalnota = 0
 
-for (let i=1; i<=5; i++){
+// for (let i=1; i<=5; i++){
 
-    let nota = parseInt(prompt("ingresa la nota " + i))
-    totalnota += nota
+//     let nota = parseInt(prompt("ingresa la nota " + i))
+//     totalnota += nota
+
+// }
+
+// let promedio = totalnota/5
+// console.log("su promedio es: " + promedio)
+
+
+//actividad 11 secuancia de fibonacci ------------------------------------------------------------------
+
+let numero = parseInt(prompt("ingresa el numero: "))
+let fibonacci = [0,1]
+for (let i=2; i<numero; i++){
+
+    fibonacci[i] = fibonacci[i-1] + fibonacci[i-2]
 
 }
 
-let promedio = totalnota/5
-console.log("su promedio es: " + promedio)
+console.log("los primeros "+numero+" numeros de fibonacci son: "+ fibonacci.slice(0,numero))
+
