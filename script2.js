@@ -64,26 +64,58 @@ while(contador != 1){ //en cambio en el while, primero pregunta y luego acciona
 
 //Actividad 8 ----------------------- while 
 
-let sumaEdades = 0
-let cantidadEdades = 0
+// let sumaEdades = 0
+// let cantidadEdades = 0
 
-let pusoNegativo = false
+// let pusoNegativo = false
 
-while (pusoNegativo != true){
+// while (pusoNegativo != true){
 
-    edadUsuario = parseInt(prompt("Ingrese la edad de uno de sus amigos, ponga un negativo en cvaso de que quiera terminar"))
+//     edadUsuario = parseInt(prompt("Ingrese la edad de uno de sus amigos, ponga un negativo en cvaso de que quiera terminar"))
 
-    if (edadUsuario < 0) {
+//     if (edadUsuario < 0) {
 
-        pusoNegativo= true
+//         pusoNegativo= true
 
-    }
+//     }
 
-    sumaEdades += edadUsuario
-    cantidadEdades += 1
+//     sumaEdades += edadUsuario
+//     cantidadEdades += 1
 
 
-}
-let promedio = sumaEdades/cantidadEdades
+// }
+// let promedio = sumaEdades/cantidadEdades
 
-console.log(promedio)
+// console.log(promedio)
+
+//actividad 9-----------------------------------------------------------------------------------------------------------------
+
+// let digitos = prompt ("ingrese un numero que desee contar los digitos")
+
+// let listaDigitos = digitos.split("")
+
+// console.log(listaDigitos)
+
+// let contador = 0
+
+// while (contador != listaDigitos.length){
+
+//     contador += 1
+
+// }
+
+// console.log("Digitos", contador)
+
+//actividad 10 -----------------------------------------------------------------------------------------------Do while
+
+let deseaSalir
+
+do{
+
+    let monto = prompt("ingrese el monto de la moneda ")
+
+    console.log("El monto de la modena es: ", monto)
+
+    deseaSalir = prompt("Desea salir? ingrese 'si' o 'no'")
+
+}while(deseaSalir == 'no')
